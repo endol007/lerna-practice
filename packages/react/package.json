@@ -1,0 +1,29 @@
+{
+  "name": "react",
+  "version": "0.0.1",
+  "description": "react package",
+  "keywords": [
+    "@test/react"
+  ],
+  "author": "원동환 <donghwan@finda.co.kr>",
+  "homepage": "https://github.com/endol007/lerna-practice#readme",
+  "license": "ISC",
+  "main": "lib/react.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/endol007/lerna-practice.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/react.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/endol007/lerna-practice/issues"
+  }
+}
