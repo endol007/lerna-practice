@@ -1,14 +1,11 @@
 {
-  "name": "react",
+  "name": "next",
   "version": "0.0.1",
-  "description": "react package",
-  "keywords": [
-    "@test/react"
-  ],
+  "description": "next package",
   "author": "원동환 <donghwan@finda.co.kr>",
   "homepage": "https://github.com/endol007/lerna-practice#readme",
   "license": "ISC",
-  "main": "lib/react.js",
+  "main": "lib/next.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -21,10 +18,9 @@
     "url": "git+https://github.com/endol007/lerna-practice.git"
   },
   "scripts": {
-    "test": "node ./__tests__/react.test.js"
+    "test": "node ./__tests__/next.test.js"
   },
   "bugs": {
     "url": "https://github.com/endol007/lerna-practice/issues"
-  },
-  "gitHead": "6e25601735f8eacfdd1f294ab43b78b064ef2ad8"
+  }
 }
